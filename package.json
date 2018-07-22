@@ -1,0 +1,48 @@
+{
+    "name": "laravel-model-snippets",
+    "displayName": "laravel-model-snippets",
+    "description": "Quickly get up and running with your Laravel Models",
+    "version": "0.0.1",
+    "publisher": "ahinkle",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "author": {
+        "name": "Andy Hinkle",
+        "email": "ahinkle10@gmail.com",
+        "url": "https://github.com/ahinkle"
+    },
+    "homepage": "https://github.com/ahinkle/vscode-laravel-model-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ahinkle/vscode-laravel-model-snippets"
+    },
+    "bugs": {
+        "url": "https://github.com/ahinkle/vscode-laravel-model-snippets/issues"
+    },
+    "keywords": [
+        "laravel",
+        "model",
+        "template",
+        "snippet",
+        "formatter"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#f66f62",
+        "theme": "dark"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Formatters"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/model.json"
+            }
+        ]
+    }
+}
