@@ -1,8 +1,8 @@
 {
     "name": "laravel-model-snippets",
-    "displayName": "laravel-model-snippets",
+    "displayName": "Laravel Model Snippets",
     "description": "Quickly get up and running with your Laravel Models",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "ahinkle",
     "engines": {
         "vscode": "^1.25.0"
