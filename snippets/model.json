@@ -222,7 +222,7 @@
             " *",
             " * @var array",
             " */",
-            " protected $visible = ['$0'];"
+            " protected \\$visible = ['$0'];"
         ],
         "description": "Visible: The attributes that should be visible in arrays."
     },
@@ -234,7 +234,7 @@
             " *",
             " * @var array",
             " */",
-            " protected $appends = ['$0'];"
+            " protected \\$appends = ['$0'];"
         ],
         "description": "Appends: The accessors to append to the model's array form."
     }
