@@ -1,5 +1,5 @@
 {
-    "Laravel Model: Table": {
+	"Laravel Model: Table": {
 		"prefix": "Model::t",
 		"body": [
 			"/**",
@@ -10,8 +10,8 @@
 			"protected \\$table = '$0';"
 		],
 		"description": "Protected Table: The table associated with the model."
-    },
-    "Laravel Model: Primary Key": {
+	},
+	"Laravel Model: Primary Key": {
 		"prefix": "Model::pk",
 		"body": [
 			"/**",
@@ -22,8 +22,8 @@
 			"protected \\$primaryKey = '$0';"
 		],
 		"description": "Primary Key: The primary key associated with the table."
-    },
-    "Laravel Model: Timestamps": {
+	},
+	"Laravel Model: Timestamps": {
 		"prefix": "Model::ts",
 		"body": [
 			"/**",
@@ -34,8 +34,8 @@
 			" public \\$timestamps = ${1:false};"
 		],
 		"description": "Timestamps: Indicates if the model should be timestamped."
-    },
-    "Laravel Model: Date Format": {
+	},
+	"Laravel Model: Date Format": {
 		"prefix": "Model::df",
 		"body": [
 			"/**",
@@ -46,8 +46,8 @@
 			" protected \\$dateFormat = '$0';"
 		],
 		"description": "Date Format: The storage format of the model's date columns."
-    },
-    "Laravel Model: Database Connection": {
+	},
+	"Laravel Model: Database Connection": {
 		"prefix": "Model::con",
 		"body": [
 			"/**",
@@ -58,22 +58,22 @@
 			" protected \\$connection = '$0';"
 		],
 		"description": "Datebase Connection: The connection name for the model."
-    },
-    "Laravel Model: Attribute Casting": {
+	},
+	"Laravel Model: Attribute Casting": {
 		"prefix": "Model::c",
 		"body": [
 			"/**",
 			" * The attributes that should be cast to native types.",
 			" *",
-			" * @var string",
+			" * @var array",
 			" */",
 			" protected \\$casts = [",
-      "\t'$1' => '${0:type}',",
-      " ];"
+			"\t'$1' => '${0:type}',",
+			" ];"
 		],
 		"description": "Attribute Casting: he attributes that should be cast to native types within your model."
-    },
-    "Laravel Model: Mass Assignment (Fillable) ": {
+	},
+	"Laravel Model: Mass Assignment (Fillable) ": {
 		"prefix": "Model::f",
 		"body": [
 			"/**",
@@ -84,8 +84,8 @@
 			" protected \\$fillable = ['$0'];"
 		],
 		"description": "Mass Assignment (Fillable): The attributes that are mass assignable."
-    },
-    "Laravel Model: Guard Attributes": {
+	},
+	"Laravel Model: Guard Attributes": {
 		"prefix": "Model::g",
 		"body": [
 			"/**",
@@ -96,8 +96,8 @@
 			" protected \\$guarded = [$0];"
 		],
 		"description": "Guard Attributes: The attributes that aren't mass assignable."
-    },
-    "Laravel Model: Dates": {
+	},
+	"Laravel Model: Dates": {
 		"prefix": "Model::d",
 		"body": [
 			"/**",
@@ -108,8 +108,8 @@
 			" protected \\$dates = ['${0:deleted_at}'];"
 		],
 		"description": "Dates: The attributes that should be mutated to dates."
-    },
-    "Laravel Model: Boot": {
+	},
+	"Laravel Model: Boot": {
 		"prefix": "Model::b",
 		"body": [
 			"/**",
@@ -125,8 +125,8 @@
 			" }"
 		],
 		"description": "Boot: The \"booting\" method of the model."
-    },
-    "Laravel Model: Local Scope": {
+	},
+	"Laravel Model: Local Scope": {
 		"prefix": "Model::s",
 		"body": [
 			"/**",
@@ -141,18 +141,18 @@
 			" }"
 		],
 		"description": "Local Scope: Query a local scope within your model."
-    },
-    "Laravel Model: One to One Relationship": {
+	},
+	"Laravel Model: One to One Relationship": {
 		"prefix": "Model::oo",
 		"body": [
 			"public function $1()",
-      "{",
-      "\treturn \\$this->hasOne('App\\\\$0');",
-      "}"
+			"{",
+			"\treturn \\$this->hasOne('App\\\\$0');",
+			"}"
 		],
 		"description": "One to One: Define a One to One relationship within your model."
-    },
-    "Laravel Model: Belongs To Relationship": {
+	},
+	"Laravel Model: Belongs To Relationship": {
 		"prefix": "Model::bt",
 		"body": [
 			"public function $1()",
@@ -161,8 +161,8 @@
 			"}"
 		],
 		"description": "Belongs To: Define a Belongs To relationship within your model."
-    },
-    "Laravel Model: One to Many": {
+	},
+	"Laravel Model: One to Many": {
 		"prefix": "Model::om",
 		"body": [
 			"public function $1()",
@@ -171,8 +171,8 @@
 			"}"
 		],
 		"description": "One to Many: Define a One to Many relationship within your model."
-    },
-    "Laravel Model: Many to Many": {
+	},
+	"Laravel Model: Many to Many": {
 		"prefix": "Model::mm",
 		"body": [
 			"public function $1()",
@@ -181,8 +181,8 @@
 			"}"
 		],
 		"description": "Many to Many: Define a Many to Many relationship within your model."
-    },
-    "Laravel Model: Belongs to Many": {
+	},
+	"Laravel Model: Belongs to Many": {
 		"prefix": "Model::btm",
 		"body": [
 			"public function $1()",
@@ -191,8 +191,8 @@
 			"}"
 		],
 		"description": "Belongs to Many: Define a Belongs to Many relationship within your model."
-    },
-    "Laravel Model: Has Many Through": {
+	},
+	"Laravel Model: Has Many Through": {
 		"prefix": "Model::hmt",
 		"body": [
 			"public function $1()",
@@ -202,40 +202,40 @@
 		],
 		"description": "Has Many Through: Define a Has Many Through relationship within your model."
 	},
-    "Laravel Model: Hidden": {
-        "prefix": "Model::h",
-        "body": [
-            "/**",
-            " * The attributes that should be hidden for arrays.",
-            " *",
-            " * @var array",
-            " */",
-            " protected \\$hidden = ['$0'];"
-        ],
-        "description": "Hidden: The attributes that should be hidden for arrays."
-    },
-    "Laravel Model: Visible": {
-        "prefix": "Model::v",
-        "body": [
-            "/**",
-            " * The attributes that should be visible in arrays.",
-            " *",
-            " * @var array",
-            " */",
-            " protected \\$visible = ['$0'];"
-        ],
-        "description": "Visible: The attributes that should be visible in arrays."
-    },
-    "Laravel Model: Appends": {
-        "prefix": "Model::a",
-        "body": [
-            "/**",
-            " * The accessors to append to the model's array form.",
-            " *",
-            " * @var array",
-            " */",
-            " protected \\$appends = ['$0'];"
-        ],
-        "description": "Appends: The accessors to append to the model's array form."
-    }
+	"Laravel Model: Hidden": {
+		"prefix": "Model::h",
+		"body": [
+			"/**",
+			" * The attributes that should be hidden for arrays.",
+			" *",
+			" * @var array",
+			" */",
+			" protected \\$hidden = ['$0'];"
+		],
+		"description": "Hidden: The attributes that should be hidden for arrays."
+	},
+	"Laravel Model: Visible": {
+		"prefix": "Model::v",
+		"body": [
+			"/**",
+			" * The attributes that should be visible in arrays.",
+			" *",
+			" * @var array",
+			" */",
+			" protected \\$visible = ['$0'];"
+		],
+		"description": "Visible: The attributes that should be visible in arrays."
+	},
+	"Laravel Model: Appends": {
+		"prefix": "Model::a",
+		"body": [
+			"/**",
+			" * The accessors to append to the model's array form.",
+			" *",
+			" * @var array",
+			" */",
+			" protected \\$appends = ['$0'];"
+		],
+		"description": "Appends: The accessors to append to the model's array form."
+	}
 }
