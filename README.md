@@ -1,5 +1,8 @@
 # About Laravel Model Snippets
 
+![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/ahinkle.laravel-model-snippets.svg) ![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/ahinkle.laravel-model-snippets.svg)
+
+
 Quickly get your models up and running with Laravel Model Snippets. Start with `Model::` then the shortcut of what you are looking for. Example: `Model::d` will return the muted dates attribute.
 
 ## Features
@@ -34,3 +37,4 @@ Initial release.
 
 -----------------------------------------------------------------------------------------------------------
 
+!
