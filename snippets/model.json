@@ -105,7 +105,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$dates = ['${0:deleted_at}'];"
+			" protected \\$dates = ['created_at', 'updated_at', '${0:deleted_at}'];"
 		],
 		"description": "Dates: The attributes that should be mutated to dates."
 	},
