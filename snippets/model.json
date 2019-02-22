@@ -237,5 +237,54 @@
 			" protected \\$appends = ['$0'];"
 		],
 		"description": "Appends: The accessors to append to the model's array form."
+	},
+	"Laravel Model: Touches": {
+		"prefix": "Model::tc",
+		"body": [
+			"/**",
+			" * The relationships that should be touched on save.",
+			" *",
+			" * @var array",
+			" */",
+			" protected $touches = [$0];"
+		],
+		"description": "Touches: The relationships that should be touched on save."
+	},
+	"Laravel Model: Incrementing": {
+		"prefix": "Model::i",
+		"body": [
+			"/**",
+			" * Indicates if the IDs are auto-incrementing.",
+			" *",
+			" * @var bool",
+			" */",
+			" protected $incrementing = ${1:false};"
+		],
+		"description": "Incrementing: Indicates if the IDs are auto-incrementing."
+	},
+	"Laravel Model: KeyType": {
+		"prefix": "Model::kt",
+		"body": [
+			"/**",
+			" * The \"type\" of the auto-incrementing ID.",
+			" *",
+			" * @var string",
+			" */",
+			" protected $keyType = ${1:'int'};"
+		],
+		"description": "KeyType: The \"type\" of the auto-incrementing ID."
+	},
+	"Laravel Model: PerPage": {
+		"prefix": "Model::pp",
+		"body": [
+			"/**",
+			" * The number of models to return for pagination.",
+			" *",
+			" * @var int",
+			" */",
+			" protected $perPage = $0;"
+		],
+		"description": "PerPage: The number of models to return for pagination."
 	}
+
 }
