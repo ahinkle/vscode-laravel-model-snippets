@@ -286,5 +286,4 @@
 		],
 		"description": "PerPage: The number of models to return for pagination."
 	}
-
 }
