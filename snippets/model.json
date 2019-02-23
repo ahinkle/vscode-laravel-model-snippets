@@ -31,7 +31,7 @@
 			" *",
 			" * @var bool",
 			" */",
-			" public \\$timestamps = ${1:false};"
+			"public \\$timestamps = ${1:false};"
 		],
 		"description": "Timestamps: Indicates if the model should be timestamped."
 	},
@@ -43,7 +43,7 @@
 			" *",
 			" * @var string",
 			" */",
-			" protected \\$dateFormat = '$0';"
+			"protected \\$dateFormat = '$0';"
 		],
 		"description": "Date Format: The storage format of the model's date columns."
 	},
@@ -55,7 +55,7 @@
 			" *",
 			" * @var string",
 			" */",
-			" protected \\$connection = '$0';"
+			"protected \\$connection = '$0';"
 		],
 		"description": "Datebase Connection: The connection name for the model."
 	},
@@ -67,7 +67,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$casts = [",
+			"protected \\$casts = [",
 			"\t'$1' => '${0:type}',",
 			" ];"
 		],
@@ -81,7 +81,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$fillable = ['$0'];"
+			"protected \\$fillable = ['$0'];"
 		],
 		"description": "Mass Assignment (Fillable): The attributes that are mass assignable."
 	},
@@ -93,7 +93,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$guarded = [$0];"
+			"protected \\$guarded = [$0];"
 		],
 		"description": "Guard Attributes: The attributes that aren't mass assignable."
 	},
@@ -105,7 +105,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$dates = ['created_at', 'updated_at', '${0:deleted_at}'];"
+			"protected \\$dates = ['created_at', 'updated_at', '${0:deleted_at}'];"
 		],
 		"description": "Dates: The attributes that should be mutated to dates."
 	},
@@ -117,12 +117,12 @@
 			" *",
 			" * @return void",
 			" */",
-			" protected static function boot()",
-			" {",
+			"protected static function boot()",
+			"{",
 			"\tparent::boot();",
 			"\t",
 			"\t$0",
-			" }"
+			"}"
 		],
 		"description": "Boot: The \"booting\" method of the model."
 	},
@@ -135,10 +135,10 @@
 			" * @param  \\Illuminate\\Database\\Eloquent\\Builder \\$query",
 			" * @return \\Illuminate\\Database\\Eloquent\\Builder",
 			" */",
-			" public function scope$2(\\$query)",
-			" {",
+			"public function scope$2(\\$query)",
+			"{",
 			"\treturn \\$query->where('$3'$0);",
-			" }"
+			"}"
 		],
 		"description": "Local Scope: Query a local scope within your model."
 	},
@@ -210,7 +210,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$hidden = ['$0'];"
+			"protected \\$hidden = ['$0'];"
 		],
 		"description": "Hidden: The attributes that should be hidden for arrays."
 	},
@@ -222,7 +222,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$visible = ['$0'];"
+			"protected \\$visible = ['$0'];"
 		],
 		"description": "Visible: The attributes that should be visible in arrays."
 	},
@@ -234,7 +234,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected \\$appends = ['$0'];"
+			"protected \\$appends = ['$0'];"
 		],
 		"description": "Appends: The accessors to append to the model's array form."
 	},
@@ -246,7 +246,7 @@
 			" *",
 			" * @var array",
 			" */",
-			" protected $touches = [$0];"
+			"protected $touches = [$0];"
 		],
 		"description": "Touches: The relationships that should be touched on save."
 	},
@@ -258,7 +258,7 @@
 			" *",
 			" * @var bool",
 			" */",
-			" protected $incrementing = ${1:false};"
+			"protected $incrementing = ${1:false};"
 		],
 		"description": "Incrementing: Indicates if the IDs are auto-incrementing."
 	},
@@ -270,7 +270,7 @@
 			" *",
 			" * @var string",
 			" */",
-			" protected $keyType = ${1:'int'};"
+			"protected $keyType = ${1:'int'};"
 		],
 		"description": "KeyType: The \"type\" of the auto-incrementing ID."
 	},
@@ -282,7 +282,7 @@
 			" *",
 			" * @var int",
 			" */",
-			" protected $perPage = $0;"
+			"protected $perPage = $0;"
 		],
 		"description": "PerPage: The number of models to return for pagination."
 	}
