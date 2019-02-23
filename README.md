@@ -30,6 +30,10 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 | `Model::h`                   | Hidden Attributes             |
 | `Model::v`                   | Visible Attributes            |
 | `Model::a`                   | Appends                       |
+| `Modal::tc`                  | Relationship Touches          |
+| `Model::i`                   | Incrementing                  |
+| `Modal::pp`                  | Per Page Pagination           |
+
 
 ## Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
