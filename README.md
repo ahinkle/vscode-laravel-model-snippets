@@ -31,9 +31,6 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 | `Model::v`                   | Visible Attributes            |
 | `Model::a`                   | Appends                       |
 
-## Release Notes
-### 1.0.1
-Added `created_at` and `updated_at` as defaults when setting Date attributes. 
-### 1.0.0
-Initial release.
+## Changelog
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 -----------------------------------------------------------------------------------------------------------
