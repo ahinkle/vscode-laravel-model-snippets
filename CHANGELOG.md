@@ -1,4 +1,5 @@
 ## 1.1.0
+- Remove Whitespace, Cleanup
 - Add Fields: `touches`, `incrementing`, `keyType`, and `perPage`. ([#2](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/2))
 
 ## 1.0.2
