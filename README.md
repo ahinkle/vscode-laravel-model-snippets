@@ -8,31 +8,32 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 ## Features
 ![Example](images/example.gif)
 
-| Snippet                      | Purpose                       |
-| ---------------------------- | ----------------------------- |
-| `Model::t`                   | Table                         |
-| `Model::pk`                  | Primary Key                   |
-| `Model::ts`                  | Timestamps                    |
-| `Model::df`                  | Date Format                   |
-| `Model::con`                 | Database Connection           |
-| `Model::c`                   | Casts Attributes              |
-| `Model::f`                   | Mass Assignment (Fillable)    |
-| `Model::g`                   | Guard Attributes              |
-| `Model::d`                   | Dates                         |
-| `Model::b`                   | Boot                          |
-| `Model::s`                   | Local Scope                   |
-| `Model::oo`                  | One to One Relationship       |
-| `Model::bt`                  | Belongs To Relationship       |
-| `Model::om`                  | One to Many Relationship      |
-| `Model::mm`                  | Many to Many Relationship     |
-| `Model::btm`                 | Belongs To Many Relationship  |
-| `Model::hmt`                 | Has Many Through Relationship |
-| `Model::h`                   | Hidden Attributes             |
-| `Model::v`                   | Visible Attributes            |
-| `Model::a`                   | Appends                       |
-| `Modal::tc`                  | Relationship Touches          |
-| `Model::i`                   | Incrementing                  |
-| `Modal::pp`                  | Per Page Pagination           |
+| Snippet                      | Purpose                            |
+| ---------------------------- | ---------------------------------- |
+| `Model::t`                   | Table                              |
+| `Model::pk`                  | Primary Key                        |
+| `Model::ts`                  | Timestamps                         |
+| `Model::df`                  | Date Format                        |
+| `Model::con`                 | Database Connection                |
+| `Model::c`                   | Casts Attributes                   |
+| `Model::f`                   | Mass Assignment (Fillable)         |
+| `Model::g`                   | Guard Attributes                   |
+| `Model::d`                   | Dates                              |
+| `Model::b`                   | Boot                               |
+| `Model::s`                   | Local Scope                        |
+| `Model::oo`                  | One to One Relationship            |
+| `Model::bt`                  | Belongs To Relationship            |
+| `Model::om`                  | One to Many Relationship           |
+| `Model::mm`                  | Many to Many Relationship          |
+| `Model::btm`                 | Belongs To Many Relationship       |
+| `Model::hmt`                 | Has Many Through Relationship      |
+| `Model::hot`                 | Has One Through Relationship (5.8) |
+| `Model::h`                   | Hidden Attributes                  |
+| `Model::v`                   | Visible Attributes                 |
+| `Model::a`                   | Appends                            |
+| `Modal::tc`                  | Relationship Touches               |
+| `Model::i`                   | Incrementing                       |
+| `Modal::pp`                  | Per Page Pagination                |
 
 
 ## Changelog
