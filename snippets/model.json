@@ -212,7 +212,7 @@
 			" */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasOneThrough($2::class, $3::class);",
+			"\treturn \\$this->hasOneThrough('App\\\\$2', 'App\\\\$3');",
 			"}"
 		],
 		"description": "Has One Through: Define a Has One Through relationship within your model. (5.8+)"
