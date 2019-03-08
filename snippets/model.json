@@ -202,6 +202,21 @@
 		],
 		"description": "Has Many Through: Define a Has Many Through relationship within your model."
 	},
+	"Laravel Model: Has One Through": {
+		"prefix": "Model::hot",
+		"body": [
+			"/**",
+			" * // Relationship description",
+			" * ",
+			" * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasOneThrough",
+			" */",
+			"public function $1()",
+			"{",
+			"\treturn \\$this->hasOneThrough('App\\\\$2', 'App\\\\$3');",
+			"}"
+		],
+		"description": "Has One Through: Define a Has One Through relationship within your model. (5.8+)"
+	},
 	"Laravel Model: Hidden": {
 		"prefix": "Model::h",
 		"body": [
