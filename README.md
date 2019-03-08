@@ -37,5 +37,5 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 
 
 ## Changelog
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
------------------------------------------------------------------------------------------------------------
+
+Please see the [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

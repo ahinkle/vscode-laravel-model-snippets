@@ -1,3 +1,6 @@
+## 1.1.1
+- Add New 5.8 Field: `hasOneThrough`. ([#4](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/4))
+
 ## 1.1.0
 - Remove Whitespace, Cleanup
 - Add Fields: `touches`, `incrementing`, `keyType`, and `perPage`. ([#2](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/2))
