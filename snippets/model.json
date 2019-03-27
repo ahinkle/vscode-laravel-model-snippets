@@ -295,5 +295,29 @@
 			"protected \\$perPage = $0;"
 		],
 		"description": "PerPage: The number of models to return for pagination."
+	},
+	"Laravel Model: Created At": {
+		"prefix": "Model::cat",
+		"body": [
+			"/**",
+			" * The name of the \"created at\" column.",
+			" *",
+			" * @var string",
+			" */",
+			"const CREATED_AT = '${1:created_at}';$0"
+		],
+		"description": "Created At: The name of the \"created at\" column."
+	},
+	"Laravel Model: Updated At": {
+		"prefix": "Model::uat",
+		"body": [
+			"/**",
+			" * The name of the \"updated at\" column.",
+			" *",
+			" * @var string",
+			" */",
+			"const UPDATED_AT = '${1:updated_at}';$0"
+		],
+		"description": "Updated At: The name of the \"updated at\" column."
 	}
 }
