@@ -10,32 +10,33 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 
 | Snippet                      | Purpose                            |
 | ---------------------------- | ---------------------------------- |
-| `Model::t`                   | Table                              |
-| `Model::pk`                  | Primary Key                        |
-| `Model::ts`                  | Timestamps                         |
-| `Model::df`                  | Date Format                        |
-| `Model::con`                 | Database Connection                |
+| `Model::a`                   | Appends                            |
+| `Model::b`                   | Boot                               |
+| `Model::bt`                  | Belongs To Relationship            |
+| `Model::btm`                 | Belongs To Many Relationship       |
 | `Model::c`                   | Casts Attributes                   |
+| `Model::cat`                 | Created At                         |
+| `Model::con`                 | Database Connection                |
+| `Model::d`                   | Dates                              |
+| `Model::dat`                 | Deleted At                         |
+| `Model::df`                  | Date Format                        |
 | `Model::f`                   | Mass Assignment (Fillable)         |
 | `Model::g`                   | Guard Attributes                   |
-| `Model::d`                   | Dates                              |
-| `Model::b`                   | Boot                               |
-| `Model::s`                   | Local Scope                        |
-| `Model::oo`                  | One to One Relationship            |
-| `Model::bt`                  | Belongs To Relationship            |
-| `Model::om`                  | One to Many Relationship           |
-| `Model::mm`                  | Many to Many Relationship          |
-| `Model::btm`                 | Belongs To Many Relationship       |
+| `Model::h`                   | Hidden Attributes                  |
 | `Model::hmt`                 | Has Many Through Relationship      |
 | `Model::hot`                 | Has One Through Relationship (5.8) |
-| `Model::h`                   | Hidden Attributes                  |
-| `Model::v`                   | Visible Attributes                 |
-| `Model::a`                   | Appends                            |
-| `Modal::tc`                  | Relationship Touches               |
 | `Model::i`                   | Incrementing                       |
-| `Modal::pp`                  | Per Page Pagination                |
-| `Modal::cat`                 | Created At                         |
-| `Modal::uat`                 | Updated At                         |
+| `Model::mm`                  | Many to Many Relationship          |
+| `Model::om`                  | One to Many Relationship           |
+| `Model::oo`                  | One to One Relationship            |
+| `Model::pk`                  | Primary Key                        |
+| `Model::pp`                  | Per Page Pagination                |
+| `Model::s`                   | Local Scope                        |
+| `Model::t`                   | Table                              |
+| `Model::tc`                  | Relationship Touches               |
+| `Model::ts`                  | Timestamps                         |
+| `Model::uat`                 | Updated At                         |
+| `Model::v`                   | Visible Attributes                 |
 
 ## Changelog
 

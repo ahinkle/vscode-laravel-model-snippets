@@ -319,5 +319,17 @@
 			"const UPDATED_AT = '${1:updated_at}';$0"
 		],
 		"description": "Updated At: The name of the \"updated at\" column."
+	},
+	"Laravel Model: Deleted At": {
+		"prefix": "Model::dat",
+		"body": [
+			"/**",
+			" * The name of the \"deleted at\" column.",
+			" *",
+			" * @var string",
+			" */",
+			"const DELETED_AT = '${1:deleted_at}';$0"
+		],
+		"description": "Deleted At: The name of the \"deleted at\" column."
 	}
 }
