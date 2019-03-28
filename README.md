@@ -34,7 +34,8 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 | `Modal::tc`                  | Relationship Touches               |
 | `Model::i`                   | Incrementing                       |
 | `Modal::pp`                  | Per Page Pagination                |
-
+| `Modal::cat`                 | Created At                         |
+| `Modal::uat`                 | Updated At                         |
 
 ## Changelog
 
