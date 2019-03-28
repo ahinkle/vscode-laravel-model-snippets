@@ -1,3 +1,7 @@
+## 1.2
+- Add const `deleted_at`.
+- Add const `created_at` and `updated_at`. ([#5](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/5))
+
 ## 1.1.1
 - Add New 5.8 Field: `hasOneThrough`. ([#4](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/4))
 
