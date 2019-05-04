@@ -1,3 +1,6 @@
+## 1.2.1
+- Fixed method type with `$incrementing`. ([#6](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/6))
+
 ## 1.2
 - Add const `deleted_at`.
 - Add const `created_at` and `updated_at`. ([#5](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/5))
