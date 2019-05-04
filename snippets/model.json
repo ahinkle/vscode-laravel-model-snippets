@@ -268,7 +268,7 @@
 			" *",
 			" * @var bool",
 			" */",
-			"protected \\$incrementing = ${1:false};"
+			"public \\$incrementing = ${1:false};"
 		],
 		"description": "Incrementing: Indicates if the IDs are auto-incrementing."
 	},
