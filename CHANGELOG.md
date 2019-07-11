@@ -1,3 +1,6 @@
+## 1.3
+- Add `dispatchesEvents` property. ([#7](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/7))
+
 ## 1.2.1
 - Fixed method type with `$incrementing`. ([#6](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/6))
 

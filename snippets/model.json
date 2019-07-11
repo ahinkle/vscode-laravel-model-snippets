@@ -331,5 +331,19 @@
 			"const DELETED_AT = '${1:deleted_at}';$0"
 		],
 		"description": "Deleted At: The name of the \"deleted at\" column."
+	},
+	"Laravel Model: Dispatches Events": {
+		"prefix": "Model::de",
+		"body": [
+			"/**",
+			" * The event map for the model.",
+			" *",
+			" * @var array",
+			" */",
+			"protected \\$dispatchesEvents = [",
+			"\t'$1' => $2,",
+			"];"
+		],
+		"description": "Dispatches Events: The event map for the model."
 	}
 }
