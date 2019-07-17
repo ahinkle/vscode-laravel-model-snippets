@@ -19,6 +19,7 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 | `Model::con`                 | Database Connection                |
 | `Model::d`                   | Dates                              |
 | `Model::dat`                 | Deleted At                         |
+| `Model::de`                  | Dispatches Events                  |
 | `Model::df`                  | Date Format                        |
 | `Model::f`                   | Mass Assignment (Fillable)         |
 | `Model::g`                   | Guard Attributes                   |
