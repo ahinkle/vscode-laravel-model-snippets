@@ -280,7 +280,7 @@
 			" *",
 			" * @var string",
 			" */",
-			"protected \\$keyType = ${1:'int'};"
+			"protected \\$keyType = '${1:int}';"
 		],
 		"description": "KeyType: The \"type\" of the auto-incrementing ID."
 	},
