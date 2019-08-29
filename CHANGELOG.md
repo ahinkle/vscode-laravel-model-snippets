@@ -1,3 +1,6 @@
+## 1.3.1
+- Update `keyType` snippet. ([#8](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/8))
+
 ## 1.3
 - Add `dispatchesEvents` property. ([#7](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/7))
 

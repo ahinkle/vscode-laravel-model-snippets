@@ -25,7 +25,7 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 | `Model::g`                   | Guard Attributes                   |
 | `Model::h`                   | Hidden Attributes                  |
 | `Model::hmt`                 | Has Many Through Relationship      |
-| `Model::hot`                 | Has One Through Relationship (5.8) |
+| `Model::hot`                 | Has One Through Relationship       |
 | `Model::i`                   | Incrementing                       |
 | `Model::mm`                  | Many to Many Relationship          |
 | `Model::om`                  | One to Many Relationship           |
