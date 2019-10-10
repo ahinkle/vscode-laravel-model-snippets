@@ -51,4 +51,6 @@ For example, `Model::d` will return the muted dates attribute:
 
 Please see the [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
+## Contributing
 
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
