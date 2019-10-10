@@ -53,4 +53,6 @@ Please see the [CHANGELOG](CHANGELOG.md) for more information on what has change
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request.
+
+Thank you to all the people who already contributed to to Laravel Model Snippets!
