@@ -1,12 +1,20 @@
-# About Laravel Model Snippets
+<h1 align="center">Laravel Model Snippets</h1>
 
-![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/ahinkle.laravel-model-snippets.svg) ![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/ahinkle.laravel-model-snippets.svg)
+<p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets"><img src="https://img.shields.io/vscode-marketplace/d/ahinkle.laravel-model-snippets.svg" alt="Visual Studio Marketplace"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets"><img src="https://img.shields.io/vscode-marketplace/v/ahinkle.laravel-model-snippets.svg" alt="Version"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets"><img src="https://img.shields.io/visual-studio-marketplace/stars/ahinkle.laravel-model-snippets" alt="Rating"></a>
+</p>
 
 
-Quickly get your models up and running with Laravel Model Snippets. Start with `Model::` then the shortcut of what you are looking for. Example: `Model::d` will return the muted dates attribute.
+Improve your workflow with Laravel Model Snippets. Start with `Model::` then the shortcut of what you are looking for within your model.
+
+For example, `Model::d` will return the muted dates attribute:
+
+![Example](images/example.gif)
+
 
 ## Features
-![Example](images/example.gif)
 
 | Snippet                      | Purpose                            |
 | ---------------------------- | ---------------------------------- |
@@ -42,3 +50,9 @@ Quickly get your models up and running with Laravel Model Snippets. Start with `
 ## Changelog
 
 Please see the [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request.
+
+Thank you to all the people who already contributed to to Laravel Model Snippets!
