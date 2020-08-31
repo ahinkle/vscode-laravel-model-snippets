@@ -237,7 +237,7 @@
 		"description": "Visible: The attributes that should be visible in arrays."
 	},
 	"Laravel Model: Appends": {
-		"prefix": "Model::a",
+		"prefix": "Model::ap",
 		"body": [
 			"/**",
 			" * The accessors to append to the model's array form.",
