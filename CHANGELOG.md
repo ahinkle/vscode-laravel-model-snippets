@@ -1,3 +1,9 @@
+## 2.0
+- Added ability to create Accessors: `Model::ac`
+- Added ability to create Mutators: `Model::mu`
+- Changed Appends snippet to `Model::ap`
+- Fixed spacing issue with Casts Snippet.
+
 ## 1.3.1
 - Update `keyType` snippet. ([#8](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/8), [Martin Pfundmair](https://github.com/MartinP7r))
 
