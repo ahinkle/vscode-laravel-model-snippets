@@ -353,13 +353,29 @@
 			" * Get the $1",
 			" *",
 			" * @param  string  \\$value",
-			" * @return string",
+			" * @return ${4:string}",
 			" */",
 			"public function get$2Attribute(\\$value)",
 			"{",
 			"\treturn ${3:\\$value};",
 			"}"
 		],
-		"description": "Accessors: Define an accessor."
+		"description": "Accessors: Define an accessor for the model."
+	},
+	"Laravel Model: Mutator": {
+		"prefix": "Model::mu",
+		"body": [
+			"/**",
+			" * Set the $1",
+			" *",
+			" * @param  string  \\$value",
+			" * @return ${5:void}",
+			" */",
+			"public function set$2Attribute(\\$value)",
+			"{",
+			"\treturn \\$this->attributes['$3'] = ${4:\\$value};",
+			"}"
+		],
+		"description": "Mutators: Define a mutator for the model."
 	}
 }

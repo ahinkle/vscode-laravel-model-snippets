@@ -41,6 +41,7 @@ For example, `Model::d` will return the muted dates attribute:
 | `Model::hot`                 | Has One Through Relationship       |
 | `Model::i`                   | Incrementing                       |
 | `Model::mm`                  | Many to Many Relationship          |
+| `Model::mu`                  | Mutator                            |
 | `Model::om`                  | One to Many Relationship           |
 | `Model::oo`                  | One to One Relationship            |
 | `Model::pk`                  | Primary Key                        |
