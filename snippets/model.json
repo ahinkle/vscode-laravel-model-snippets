@@ -345,5 +345,21 @@
 			"];"
 		],
 		"description": "Dispatches Events: The event map for the model."
+	},
+	"Laravel Model: Accessor": {
+		"prefix": "Model::ac",
+		"body": [
+			"/**",
+			" * Get the $1",
+			" *",
+			" * @param  string  \\$value",
+			" * @return string",
+			" */",
+			"public function get$2Attribute(\\$value)",
+			"{",
+			"\treturn ${3:\\$value};",
+			"}"
+		],
+		"description": "Accessors: Define an accessor."
 	}
 }

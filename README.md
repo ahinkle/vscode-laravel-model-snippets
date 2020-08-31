@@ -23,6 +23,7 @@ For example, `Model::d` will return the muted dates attribute:
 | Snippet                      | Purpose                            |
 | ---------------------------- | ---------------------------------- |
 | `Model::a`                   | Appends                            |
+| `Model::ac`                  | Accessor                            |
 | `Model::b`                   | Boot                               |
 | `Model::bt`                  | Belongs To Relationship            |
 | `Model::btm`                 | Belongs To Many Relationship       |
