@@ -69,7 +69,7 @@
 			" */",
 			"protected \\$casts = [",
 			"\t'$1' => '${0:type}',",
-			" ];"
+			"];"
 		],
 		"description": "Attribute Casting: he attributes that should be cast to native types within your model."
 	},
