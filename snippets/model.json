@@ -145,6 +145,11 @@
 	"Laravel Model: One to One Relationship": {
 		"prefix": "Model::oo",
 		"body": [
+            "/**",
+            " * Get the $1 associated with the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasOne",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->hasOne($0::class);",
@@ -155,6 +160,11 @@
 	"Laravel Model: Belongs To Relationship": {
 		"prefix": "Model::bt",
 		"body": [
+            "/**",
+            " * Get the $1 that owns the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsTo",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->belongsTo($0::class);",
@@ -165,6 +175,11 @@
 	"Laravel Model: One to Many": {
 		"prefix": "Model::om",
 		"body": [
+            "/**",
+            " * Get all of the $1 for the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasMany",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->hasMany($0::class);",
@@ -175,6 +190,11 @@
 	"Laravel Model: Many to Many": {
 		"prefix": "Model::mm",
 		"body": [
+            "/**",
+            " * The $1 that belong to the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->belongsToMany($0::class);",
@@ -185,6 +205,11 @@
 	"Laravel Model: Belongs to Many": {
 		"prefix": "Model::btm",
 		"body": [
+            "/**",
+            " * The $1 that belong to the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->belongsToMany($0::class);",
@@ -195,6 +220,11 @@
 	"Laravel Model: Has Many Through": {
 		"prefix": "Model::hmt",
 		"body": [
+            "/**",
+            " * Get all of the $1 for the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasManyThrough",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->hasManyThrough($0::class);",
@@ -205,6 +235,11 @@
 	"Laravel Model: Has One Through": {
 		"prefix": "Model::hot",
 		"body": [
+            "/**",
+            " * Get the $1 associated with the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasOneThrough",
+            " */",
 			"public function $1()",
 			"{",
 			"\treturn \\$this->hasOneThrough($2::class, $3::class);",
