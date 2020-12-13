@@ -147,7 +147,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasOne('App\\\\$0');",
+			"\treturn \\$this->hasOne($0::class);",
 			"}"
 		],
 		"description": "One to One: Define a One to One relationship within your model."
@@ -157,7 +157,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsTo('App\\\\$0');",
+			"\treturn \\$this->belongsTo($0::class);",
 			"}"
 		],
 		"description": "Belongs To: Define a Belongs To relationship within your model."
@@ -167,7 +167,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasMany('App\\\\$0');",
+			"\treturn \\$this->hasMany($0::class);",
 			"}"
 		],
 		"description": "One to Many: Define a One to Many relationship within your model."
@@ -177,7 +177,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsToMany('App\\\\$0');",
+			"\treturn \\$this->belongsToMany($0::class);",
 			"}"
 		],
 		"description": "Many to Many: Define a Many to Many relationship within your model."
@@ -187,7 +187,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsToMany('App\\\\$0');",
+			"\treturn \\$this->belongsToMany($0::class);",
 			"}"
 		],
 		"description": "Belongs to Many: Define a Belongs to Many relationship within your model."
@@ -197,7 +197,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasManyThrough('App\\\\$0');",
+			"\treturn \\$this->hasManyThrough($0::class);",
 			"}"
 		],
 		"description": "Has Many Through: Define a Has Many Through relationship within your model."
@@ -207,7 +207,7 @@
 		"body": [
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasOneThrough('App\\\\$2', 'App\\\\$3');",
+			"\treturn \\$this->hasOneThrough($2::class, $3::class);",
 			"}"
 		],
 		"description": "Has One Through: Define a Has One Through relationship within your model. (5.8+)"
