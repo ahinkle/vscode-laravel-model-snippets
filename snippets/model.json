@@ -145,9 +145,14 @@
 	"Laravel Model: One to One Relationship": {
 		"prefix": "Model::oo",
 		"body": [
+            "/**",
+            " * Get the $1 associated with the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasOne",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasOne('App\\\\$0');",
+			"\treturn \\$this->hasOne($0::class);",
 			"}"
 		],
 		"description": "One to One: Define a One to One relationship within your model."
@@ -155,9 +160,14 @@
 	"Laravel Model: Belongs To Relationship": {
 		"prefix": "Model::bt",
 		"body": [
+            "/**",
+            " * Get the $1 that owns the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsTo",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsTo('App\\\\$0');",
+			"\treturn \\$this->belongsTo($0::class);",
 			"}"
 		],
 		"description": "Belongs To: Define a Belongs To relationship within your model."
@@ -165,9 +175,14 @@
 	"Laravel Model: One to Many": {
 		"prefix": "Model::om",
 		"body": [
+            "/**",
+            " * Get all of the $1 for the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasMany",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasMany('App\\\\$0');",
+			"\treturn \\$this->hasMany($0::class);",
 			"}"
 		],
 		"description": "One to Many: Define a One to Many relationship within your model."
@@ -175,9 +190,14 @@
 	"Laravel Model: Many to Many": {
 		"prefix": "Model::mm",
 		"body": [
+            "/**",
+            " * The $1 that belong to the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsToMany('App\\\\$0');",
+			"\treturn \\$this->belongsToMany($0::class);",
 			"}"
 		],
 		"description": "Many to Many: Define a Many to Many relationship within your model."
@@ -185,9 +205,14 @@
 	"Laravel Model: Belongs to Many": {
 		"prefix": "Model::btm",
 		"body": [
+            "/**",
+            " * The $1 that belong to the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->belongsToMany('App\\\\$0');",
+			"\treturn \\$this->belongsToMany($0::class);",
 			"}"
 		],
 		"description": "Belongs to Many: Define a Belongs to Many relationship within your model."
@@ -195,9 +220,14 @@
 	"Laravel Model: Has Many Through": {
 		"prefix": "Model::hmt",
 		"body": [
+            "/**",
+            " * Get all of the $1 for the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasManyThrough",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasManyThrough('App\\\\$0');",
+			"\treturn \\$this->hasManyThrough($0::class);",
 			"}"
 		],
 		"description": "Has Many Through: Define a Has Many Through relationship within your model."
@@ -205,9 +235,14 @@
 	"Laravel Model: Has One Through": {
 		"prefix": "Model::hot",
 		"body": [
+            "/**",
+            " * Get the $1 associated with the ${TM_FILENAME_BASE}",
+            " *",
+            " * @return \\Illuminate\\Database\\Eloquent\\Relations\\HasOneThrough",
+            " */",
 			"public function $1()",
 			"{",
-			"\treturn \\$this->hasOneThrough('App\\\\$2', 'App\\\\$3');",
+			"\treturn \\$this->hasOneThrough($2::class, $3::class);",
 			"}"
 		],
 		"description": "Has One Through: Define a Has One Through relationship within your model. (5.8+)"
