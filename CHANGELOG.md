@@ -1,3 +1,6 @@
+## 2.1
+- Laravel 8 Support, Improved Relationship Docblocks, ([#11](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/11), [Eduar Bastidas](https://github.com/MrEduar))
+
 ## 2.0
 - Added ability to create Accessors: `Model::ac`
 - Added ability to create Mutators: `Model::mu`
@@ -8,10 +11,10 @@
 - Update `keyType` snippet. ([#8](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/8), [Martin Pfundmair](https://github.com/MartinP7r))
 
 ## 1.3
-- Add `dispatchesEvents` property. ([#7](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/7))
+- Add `dispatchesEvents` property. ([#7](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/7)
 
 ## 1.2.1
-- Fixed method type with `$incrementing`. ([#6](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/6),  [Martin Pfundmair](https://github.com/MartinP7r)))
+- Fixed method type with `$incrementing`. ([#6](https://github.com/ahinkle/vscode-laravel-model-snippets/pull/6),  [Martin Pfundmair](https://github.com/MartinP7r))
 
 ## 1.2
 - Add const `deleted_at`.
